@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "common-list": "/components/commom/common-list",
+    "load-more": "/components/commom/load-more"
+  }
+}

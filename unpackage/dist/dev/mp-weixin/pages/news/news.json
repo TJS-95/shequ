@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "uni-nav-bar": "/components/uni-ui/uni-nav-bar/uni-nav-bar",
+    "common-list": "/components/commom/common-list",
+    "load-more": "/components/commom/load-more"
+  }
+}

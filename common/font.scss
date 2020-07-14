@@ -1,0 +1,39 @@
+$colors: (
+  "primary": #db9e3f,
+  "blue": #4394e4,
+  "danger": #791a15,
+  "info": #4b67af,
+  "white": #fff,
+  "light": #f9f9f9,
+  "grey": #666,
+  "dark": #222,
+  "black": #000,
+  "9D9589": #9D9589
+);
+
+// font size
+$base-font-size: 1rpx;
+$font-sizes: (
+	20: 20,
+	24: 24,
+	28: 28,
+	30: 30,
+	32: 32,
+	36: 36,
+	40: 40
+);
+
+@each $colorKey, $color in $colors {
+  .fc-#{$colorKey} {
+    color: $color;
+  }
+  .bg-#{$colorKey} {
+    background-color: $color;
+  }
+}
+
+@each $sizeKey, $size in $font-sizes {
+  .fs-#{$sizeKey} {
+    font-size: $size * $base-font-size;
+  }
+}
